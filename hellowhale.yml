@@ -3,7 +3,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: hello-blue-whale
-  namespace: quota-mem-cpu-example
 spec:
   replicas: 5
   selector:
